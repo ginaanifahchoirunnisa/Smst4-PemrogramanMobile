@@ -1,0 +1,3 @@
+link contoh :
+1. Fragments : https://developer.android.com/codelabs/advanced-android-training-fragments#4
+2. Recycler View : https://developer.android.com/codelabs/android-training-create-recycler-view?index=..%2F..%2Fandroid-training#0
