@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "711321887469",
+    "project_id": "domytask-291f8",
+    "storage_bucket": "domytask-291f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711321887469:android:9dedf8a5808266c67b22e4",
+        "android_client_info": {
+          "package_name": "com.example.domytask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711321887469-8qigmipdg6p6hmfbsidtetafll3hl51g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPaRwqK_SqA44uye81Bx-4OLJH4MofcN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711321887469-8qigmipdg6p6hmfbsidtetafll3hl51g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

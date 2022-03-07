@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/list_task"
+        android:title="List_task"
+        android:icon="@drawable/ic_list_all_task"/>
+
+    <item
+        android:id="@+id/add_task"
+        android:title="Add_task"
+        android:icon="@drawable/ic_tulis_task"/>
+
+
+
+
+</menu>
