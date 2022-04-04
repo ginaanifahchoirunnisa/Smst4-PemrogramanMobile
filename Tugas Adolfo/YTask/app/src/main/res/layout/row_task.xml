@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_margin="15dp"
+    android:background="@color/purple_200"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mata Kuliah : "
+        />
+    <TextView
+        android:id="@+id/tmatkul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Mata Kuliah"
+        />
+
+<!--    <TextView-->
+<!--        android:id="@+id/tjudultugas"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:text="Judul Tugas"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tdeskripsi"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:text="Deskripsi Tugas"-->
+<!--        />-->
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deadline : "
+        />
+
+    <TextView
+        android:id="@+id/tdeadline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Deadline"
+        />
+
+
+</LinearLayout>

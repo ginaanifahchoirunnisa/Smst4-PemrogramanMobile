@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowDetailActivity"
+    android:padding="40dp"
+
+    android:background="@color/birumuda"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DETAIL TASK"
+        android:textAlignment="center"
+        android:id="@+id/juduls"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="sans-serif"
+        android:textSize="35dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/show_matkul"
+        android:layout_below="@+id/juduls"
+        android:hint="Mata Kuliah :"
+        android:layout_marginBottom="30dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/show_matkul"
+        android:id="@+id/show_judul"
+        android:hint="Judul Tugas :"
+        android:layout_marginBottom="30dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/show_deskripsi"
+        android:layout_below="@+id/show_judul"
+        android:hint="Deskripsi Tugas :"
+        android:layout_marginBottom="30dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/show_deadline"
+        android:layout_below="@+id/show_deskripsi"
+        android:hint="Deadline :"
+        />
+
+</RelativeLayout>
